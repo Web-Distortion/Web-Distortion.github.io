@@ -7,7 +7,7 @@ Web optimization proxies (WOPs) play a critical role in today’s web ecosystem 
 ### Visuality-aware Testing
 We propose a novel testing methodology named visuality-aware testing for measuring the visual similarity between two pages. Visuality-aware testing is inspired by the scene graph, a conceptual data structure used in graphics to represent 2D/3D scenes. We thus create a novel data structure called Morphological Segmentation Tree (MST), which instantiates the scene graph concept to represent a web page. Then we design a heuristic algorithm that matches two MSTs and evaluate their similarity via GK-SIM. The code of GK-SIM calculation are available on [GitHub]().
 
-### Defect Fixing of Ziproxy and Compy
+### Bugs Fixing of Ziproxy and Compy
 By applying visuality-aware testing to Ziproxy and Compy, we discover six types of defects that can lead to visual distortions. We successfully fix them through source code modification and auxiliary middleware. The fixed version of Ziproxy and Compy coupled with auxiliary middlewares are available at [Github]().
 
 ### Raw Data
