@@ -11,4 +11,4 @@ We propose a novel testing methodology named visuality-aware testing for measuri
 By applying visuality-aware testing to Ziproxy and Compy, we discover six types of defects that can lead to visual distortions. We successfully fix them through source code modification and auxiliary middleware. The fixed version of Ziproxy and Compy coupled with auxiliary middlewares are available at [Github]().
 
 ### Raw Data
-We collected Chrome’s invocation logs of SKPaint APIs when visiting Alexa top 10,000 websites on Oct. 9th, 2019, which are available in the [Google Drive](). 
+We collected Chrome’s invocation logs of SKPaint APIs when visiting Alexa top 10,000 websites on Oct. 9th, 2019, which are available in the [Google Drive](https://drive.google.com/file/d/1iU40aJgCuFHNtKfUz3bM8vk5b1kDcWAO/view?usp=sharing). 
