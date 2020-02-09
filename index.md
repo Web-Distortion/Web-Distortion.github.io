@@ -7,6 +7,6 @@ Web optimization proxies (WOPs) play a critical role in to- day’s web ecosyste
 ### GK-SIM Calculation Code
 we provide the GK-SIM calculation code [on Github]().
 ### Defect Ziproxy and Compy
-We find six types of defects in Ziproxy and Compy as the root causes of visual distortions. We successfully fix them through source code modification and auxiliary middleware. After that, 98% distortions are resolved with negligible overhead.
+We find six types of defects in Ziproxy and Compy as the root causes of visual distortions. We successfully fix them through source code modification and auxiliary middleware. After that, 98% distortions are resolved with negligible overhead.The modified source code and auxiliary middleware are available at [Github]().
 ### Raw Data
 We collected Chrome’s invocation logs of SKPaint APIs when visiting Alexa top 10,000 websites on Oct. 9th, 2019. We release the data in the [Google Driver](). 
