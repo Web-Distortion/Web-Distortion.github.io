@@ -13,7 +13,7 @@ We propose a novel testing methodology named visuality-aware testing for measuri
 ![MST](https://raw.githubusercontent.com/Web-Distortion/Web-Distortion.github.io/master/images/MST.png)
 
 
-       Figure 2: A typical web page and its corresponding morphological segmentation tree (MST).
+     Figure 2: A typical web page and its corresponding morphological segmentation tree (MST).
 
 ### Defect Fixing for Ziproxy and Compy
 By applying visuality-aware testing to Ziproxy and Compy, we discover six types of defects that can lead to visual distortions. We successfully fix them through source code modification and auxiliary middleware. The fixed version of Ziproxy and Compy coupled with auxiliary middlewares are available at [Github](https://github.com/Web-Distortion/Web-Distortion.github.io/tree/master/fixing).
