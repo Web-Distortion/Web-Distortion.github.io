@@ -1497,6 +1497,61 @@ int yuv2rgb (raw_bitmap * bmp) {
 	return IMG_RET_OK;
 }
 
+/*
+ * R = 255 × (1-C) × (1-K);
+ * G = 255 × (1-M) × (1-K);
+ * B = 255 × (1-Y) × (1-K)
+ */ 
+int cmyk2rgb(raw_bitmap * bmp) {
+	float srcC, srcM, srcY, srcK;
+	float dstR, dstG, dstB;
+	int imgsize;
+	int step = bmp->bpp;
+	int rpos;
+	unsigned char *read_base, *write_base;
+	int i;
+
+	imgsize = bmp->width * bmp->height * bmp->bpp;
+	
+	/* allocate RGB bitmap buffer if needed */
+	if (bmp->bitmap_cmyk == NULL)
+		bmp->bitmap = (unsigned char *) malloc (imgsize);
+	
+	read_base = bmp->bitmap_cmyk;
+	write_base = bmp->bitmap;
+
+	for (rpos = 0; rpos < imgsize; rpos += step) {
+
+		srcC = *(read_base + rpos);
+		srcM = *(read_base + rpos + 1);
+		srcY = *(read_base + rpos + 2);
+		srcK = *(read_base + rpos + 3);
+		
+		dstR = 255 * (1 - srcC) * (1 - srcK);
+		dstG = 255 * (1 - srcM) * (1 - srcK);
+		dstB = 255 * (1 - srcY) * (1 - srcK);
+
+		if (dstR > 255)
+			dstR = 255;
+		if (dstG > 255)
+			dstG = 255;
+		if (dstB > 255)
+			dstB = 255;
+		if (dstR < 0)
+			dstR = 0;
+		if (dstG < 0)
+			dstG = 0;
+		if (dstB < 0)
+			dstB = 0;
+
+		*(write_base + rpos) = dstR;
+		*(write_base + rpos + 1) = dstG;
+		*(write_base + rpos + 2) = dstB;
+	}
+
+	return IMG_RET_OK;
+}
+
 /* compress a bitmap to jpeg.
  * we CANNOT use bitmap2jpg() because that function is promiscually making reference to global vars and who knows what else.
  * jpegout returns a pointer to a buffer containing a pointer to jpeg data (should be free'ed manually later)
