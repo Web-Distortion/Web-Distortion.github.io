@@ -91,6 +91,7 @@ int do_compress_stream_stream (http_headers *hdr, FILE *from, FILE *to, ZP_DATAS
 	/* previous content-length is invalid, discard it */
 	hdr->where_content_length = -1;
 	remove_header_str(hdr, "Content-Length");
+	remove_header_str(hdr, "Content-Encoding");
 
 	add_header(hdr, "Content-Encoding: gzip");
 	add_header(hdr, "Connection: close");
