@@ -1,1 +1,1 @@
- The fixed version of Ziproxy, Compy and auxiliary middlewares.
+ The fixed version of Ziproxy, Compy and auxiliary middleware.

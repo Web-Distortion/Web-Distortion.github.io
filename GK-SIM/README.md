@@ -1,1 +1,1 @@
-The code of GK-SIM calculation
+The code of GK-SIM calculation.
