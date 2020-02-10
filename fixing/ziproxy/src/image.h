@@ -106,12 +106,14 @@ typedef struct {
 	unsigned char * palette;
 	unsigned char * bitmap;	//For grayscale/truecolor RGB images (always present and the default bitmap)
 	unsigned char * bitmap_yuv; //For truecolor YUV images (allocated on demand)
+	unsigned char * bitmap_cmyk;
 	int pal_entries;
 	int width, height;
 	int pal_bpp, bpp;
 	int o_depth_R, o_depth_G, o_depth_B;	/* original bit depth of each component before recompression */
 	int o_depth_Y, o_depth_U, o_depth_V;	/* same as above */
 	int o_depth_A;				/* same as above */
+	int o_depth_C, o_depth_M, o_depth_Y, o_depth_K;
 	t_original_ct o_color_type;		/* original color type before recompression */
 	int opt_pal_transp;			/* total of pixels with alpha data, when palette is optimized */
 } raw_bitmap;
