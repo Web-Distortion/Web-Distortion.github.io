@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="conflictreaper">
+    <meta name="author" content="chenjian">
+    <link rel="icon" href="favicon.ico">
+
+    <title>APIChecker</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="sticky-footer.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<style type="text/css">
+        table{
+            border-top:2px solid;
+            border-bottom:2px solid;
+        }
+        td{
+            padding-left: 5px;
+			padding-right: 5px;
+            vertical-align: center;
+			border-top:1px solid;
+			border-bottom:1px solid;
+        }
+		.tdleft{
+			padding-left: 5px;
+			padding-right: 5px;
+            vertical-align: center;
+			border-top:1px solid;
+			border-bottom:1px solid;
+			border-left:1px solid;
+		}
+		li{
+			line-height: 2em;
+		}
+    </style>
+
+    
+  </head>
+
+  <body>
+
+    <!-- Begin page content -->
+		<div class="container">
+			<div class="page-header">
+				<h1>Towards Resolving the API Selection Dilemma in Market-scale Android Malware Detection</h1>
+			</div>
+			<!-- <p class="lead">
+				This project (<a target="_blank" href="https://github.com/ConflictReaper/ConflictReaper">source code</a>) strives towards understanding and improving collaboration in cloud storage services.
+			</p> -->
+			<!--<h2>Repositories</h2>-->
+			<h2>
+				Background
+			</h2>
+			<p style="line-height: 2em; text-indent: 2em">
+				All the functions of an Android app are empowered by the Java framework APIs offered by Android SDK.Hence, studying the framework APIs employed by an app has long been considered a natural approach to determining the app’s malice.
+				In this project, we explore the practical feasibility of using framework APIs to detect malware in a large-scale app market, and the detection time should be short enough.
+			</p>
+			<!--<p>
+				The functionality of cloud storage services has evolved from simple file backup to online collaboration.
+			</p>
+			<p>
+				For the ease of use, file collaboration is made transparent by almost all the cloud storage services today through automatic file synchronization.
+			</p>
+			<p>
+				However, collaboration inevitably introduces conflicts -- unexpected and even mysterious events.
+			</p>-->
+			
+			
+			<!--<p>
+				To uncover the root causes of these unexpected, counterintuitive patterns, we conduct a comparative measurement study of eight mainstream cloud storage services: Dropbox, OneDrive, Google Drive, iCloud Drive, Box, SugarSync, Seafile, and NutStore.
+			</p>
+			<p>
+				Our study leads to a number of findings that explain these unexpected and undesired patterns described in Table 1.
+			</p>
+			<p>
+				6
+			</p>
+			<p>
+				7
+			</p>-->
+
+			
+		  
+			<h2>
+				API Set
+			</h2>
+			<p style="line-height: 2em; text-indent: 2em">
+				 We study ground-truth data from one of the world’s largest Android app markets (called Market-T), and extract 426 key APIs (out of 50K APIs) which generally belong to the following three categories (with some overlap). The 426 key APIs (out of 50K APIs) are of fundamental importance to malware detection.
+			</p>
+			<ul>
+				<li>
+				<b>Restricted API:</b> 112 framework APIs whose usage should be restricted with dangerous-level permissions.
+				</li>
+				<li>
+				<b>Highly-Correlation API:</b> 260 framework APIs that have significant statistical correlations (PCC > 0.2) 2 with the malice of apps. 
+				</li>
+				<li>
+				<b>	Sensitive Operation API:</b> 70 framework APIs that can enable sensitive operations for conducting certain attacks (e.g., ransomware and background malware).
+				</li>
+			</ul>
+	
+
+			
+			<!--<img class="img-responsive center-block" width="600px" alt="architecture" src="./module.jpg">
+			<p></p>
+			<p style="text-align:center">
+				Figure 2: System structure of ConflictReaper with modularized components.
+			</p>-->
+		</div>
+
+	<!--<footer class="footer">-->
+		<!--<div class="container">-->
+			<!--<p class="text-muted">Place sticky footer content here.</p>-->
+		<!--</div>-->
+	<!--</footer>-->
+	<script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.js"></script>
+
+	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.csv.min.js"></script>
+
+
+    
+
+	
+  </body>
+</html>
