@@ -124,7 +124,6 @@ def generateKernel(edges, nodes):
                 else:
                     c2 = getCoords(nodes[j])
                     kernel[i] += np.array(relationship(c1, c2))
-    getSum(edges, 0, kernel)
     return kernel
 
 
