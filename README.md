@@ -1,3 +1,3 @@
-## Visuality-aware Testing for Web Optimization Proxies
+## Overcoming the Adoption Hurdle of Web Optimization Proxies
 
 Homepage for project.
