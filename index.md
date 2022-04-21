@@ -10,7 +10,7 @@
     </script>
 </head>
 <br />
-<center style="font-size:45px;color:green;line-height:-10px"> Visual-Aware Testing and Debugging forWeb Optimization </center>
+<center style="font-size:45px;color:green;line-height:-10px"> Visual-Aware Testing and Debugging for Web Optimization </center>
 
 ![license](https://img.shields.io/badge/Platform-Android-green "Web")
 ![license](https://img.shields.io/badge/Licence-Apache%202.0-blue.svg "Apache")
@@ -18,6 +18,7 @@
 ## Table of Contents
 [Introduction](#introduction)
 
+[Data/Code Release](#data-and-code-release)
 
 ## Introduction
 Web optimization services (WOSes) play a critical role in today’s web ecosystem by improving performance and saving traffic. However, WOSes are known for introducing visual distortions that disrupt user web experience. Unfortunately,
@@ -29,5 +30,5 @@ This is achieved by morphological causal inference, which localizes the offendin
 Vetter to four representative WOS systems. Vetter discovers 21 unknown defects responsible for 98% visual distortions; 12 of them have been confirmed and 5 have been fixed.
 
 
-
+## Data and Code Release
 The released data and code are coming up soon!
