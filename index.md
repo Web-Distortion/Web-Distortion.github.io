@@ -32,9 +32,9 @@ Vetter to four representative WOS systems. Vetter discovers 21 unknown defects r
 
 
 ## Data and Code Release
-We collected Chrome’s invocation logs of SKPaint APIs when visiting Alexa top and bottom 2,500 websites on Jan. 9th, 2022, which are available in the <a href="https://drive.google.com/drive/folders/186QVPhd5jGKOkaKUp0HYpbm4CQelOJsw?usp=sharing">Google Drive</a>. Besides, we make part of our dataset available in Google drive (the remaining part will be publicly available when the paper is published).
+**Data Release.** We collected Chrome’s invocation logs of SKPaint APIs when visiting Alexa top and bottom 2,500 websites on Jan. 9th, 2022, which are available in the <a href="https://drive.google.com/drive/folders/186QVPhd5jGKOkaKUp0HYpbm4CQelOJsw?usp=sharing">Google Drive</a>. Besides, we make part of our dataset available in Google drive (the remaining part will be publicly available when the paper is published).
 
-Currently we are scrutinizing the codebase to avoid possible anonymity violation. To this end, we will release Vetter's source code in a module-by-module manner as soon as we have finished examining a module.
+**Data Release.** Currently we are scrutinizing the codebase to avoid possible anonymity violation. To this end, we will release Vetter's source code in a module-by-module manner as soon as we have finished examining a module.
 
 ## Bugs Found
 Coming Soon!
