@@ -49,6 +49,22 @@ Vetter
 
 The released part can be found <a href="https://github.com/Web-Distortion/Web-Distortion.github.io/tree/master/Vetter">here</a>.
 
-## Bugs Found
-Coming Soon!
+## Defects Found
+Below, we list all the defects we have found for four representative WOSes: Compy, Ziproxy, Fawkes, and Siploader.
+Note that for Ziproxy, we mail the developers of Ziproxy with the defects we have found (together with our suggested fixes) through their official channels, but have not received the reply yet.
+
+### Compy
+
+| Index    | Description     | Issue NO. | Current State |
+| -------------- | ----------------------------------- | ------------------------|  ------------------------|
+|1|Compy goes wrong when compressing some images, which makes the images unable to load.| <a href="https://github.com/barnacs/compy/issues/63">63</a> & <a href="https://github.com/barnacs/compy/pull/70">pr 70</a> | Confirmed |
+|2|Compy fails to parse the compressed images.| <a href="https://github.com/barnacs/compy/issues/64">64</a> | |
+|3|Compy can't deal with the websocket, which fails some interaction tasks like chatrooms and online services.| <a href="https://github.com/barnacs/compy/issues/65">65</a> | Under Discussion |
+|4|Compy may block the redirecting process of some websites.| <a href="https://github.com/barnacs/compy/issues/66">66</a> | Fixed & Merged|
+
+### Ziproxy
+
+### Fawkes
+
+### SipLoader
 
