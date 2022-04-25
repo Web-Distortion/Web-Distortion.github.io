@@ -36,6 +36,18 @@ Vetter to four representative WOS systems. Vetter discovers 21 unknown defects r
 **Data Release.** We collected Chrome’s invocation logs of SKPaint APIs when visiting Alexa top and bottom 2,500 websites on Dec. 9th, 2021, which are available in the <a href="https://drive.google.com/drive/folders/186QVPhd5jGKOkaKUp0HYpbm4CQelOJsw?usp=sharing">Google Drive</a>. Besides, we have made part of our dataset available in <a href="https://drive.google.com/drive/folders/186QVPhd5jGKOkaKUp0HYpbm4CQelOJsw?usp=sharing">Google Drive</a> (the remaining part will be publicly available when the paper is published).
 
 **Code Release.** Currently we are scrutinizing the codebase to avoid possible anonymity violation. To this end, we will release Vetter's source code in a module-by-module manner as soon as we have finished examining a module.
+The codebase of Vetter is organized as follows.
+```
+Vetter
+|---- Vetter_Testing
+          |---- Morph_Instantiation_Minification
+          |---- MorphSIM_Calculation
+|---- Vetter_Debugging
+          |---- Morph_Causal_Inference
+          |---- Causality_Informed_Code_Analysis
+```
+
+The released part can be found <a href="https://github.com/Web-Distortion/Web-Distortion.github.io/tree/master/Vetter">here</a>.
 
 ## Bugs Found
 Coming Soon!
