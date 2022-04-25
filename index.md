@@ -84,7 +84,7 @@ Note that for Ziproxy, we mail the developers of Ziproxy with the defects we hav
 | -------------- | ----------------------------------- | ------------------------|  ------------------------|
 |1| SipLoader cannot track dependencies triggered by CSS files. | <a href="https://github.com/SipLoader/SipLoader.github.io/issues/1">Issue-1</a> | Confirmed |
 |2| SipLoader cannot handle dependency loops among resources. | <a href="https://github.com/SipLoader/SipLoader.github.io/issues/2">Issue-2</a> | Confirmed |
-|3| SipLoader cannot request cross-origin resources. | <a href="https://github.com/SipLoader/SipLoader.github.io/issues/3">Issue-3</a> | Confirmed & Fixed |
+|3| SipLoader cannot request cross-origin resources. | <a href="https://github.com/SipLoader/SipLoader.github.io/issues/3">Issue-3</a> | Confirmed |
 |4| Disordered page loading of websites with multiple HTML files. | <a href="https://github.com/SipLoader/SipLoader.github.io/issues/4">Issue-4</a> | Confirmed |
 |5| "404 Not Found" error when loading websites with multiple HTML files. | <a href="https://github.com/SipLoader/SipLoader.github.io/issues/5">Issue-5</a> | Confirmed |
 |6| SipLoader cannot handle some dynamic resources. | <a href="https://github.com/SipLoader/SipLoader.github.io/issues/6">Issue-6</a> | Confirmed |
