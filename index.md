@@ -55,14 +55,20 @@ Note that for Ziproxy, we mail the developers of Ziproxy with the defects we hav
 
 ### Compy
 
-| Index    | Description     | Issue NO. | Current State |
+| Index    | Description     | Issue/PR NO. | Current State |
 | -------------- | ----------------------------------- | ------------------------|  ------------------------|
-|1|Compy goes wrong when compressing some images, which makes the images unable to load.| <a href="https://github.com/barnacs/compy/issues/63">63</a> & <a href="https://github.com/barnacs/compy/pull/70">pr 70</a> | Confirmed |
-|2|Compy fails to parse the compressed images.| <a href="https://github.com/barnacs/compy/issues/64">64</a> | |
-|3|Compy can't deal with the websocket, which fails some interaction tasks like chatrooms and online services.| <a href="https://github.com/barnacs/compy/issues/65">65</a> | Under Discussion |
-|4|Compy may block the redirecting process of some websites.| <a href="https://github.com/barnacs/compy/issues/66">66</a> | Fixed & Merged|
+|1|Compy goes wrong when compressing some images, which makes the images unable to load.| <a href="https://github.com/barnacs/compy/issues/63">Issue-63</a> & <a href="https://github.com/barnacs/compy/pull/70">PR-70</a> | Confirmed & Fixed |
+|2|Compy fails to parse the compressed images.| <a href="https://github.com/barnacs/compy/issues/64">Issue-64</a> | Under Discussion |
+|3|Compy can't deal with the websocket, which fails some interaction tasks like chatrooms and online services.| <a href="https://github.com/barnacs/compy/issues/65">Issue-65</a> | Under Discussion |
+|4|Compy may block the redirecting process of some websites.| <a href="https://github.com/barnacs/compy/issues/66">Issue-66</a> & <a href="https://github.com/barnacs/compy/pull/68">PR-68</a> | Fixed & Merged |
 
 ### Ziproxy
+
+
+| Index    | Description     | Issue/PR NO. | Current State |
+| -------------- | ----------------------------------- | ------------------------|  ------------------------|
+|1| Ziproxy goes wrong when compressing some contexts, which makes the original contexts become messy code. | - | Waiting For Reply |
+|2| Ziproxy disturbs the loading sequence of JS files, leading to loading failure of  web pages. | - | Waiting For Reply |
 
 ### Fawkes
 
