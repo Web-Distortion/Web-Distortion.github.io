@@ -57,10 +57,11 @@ Note that for Ziproxy, we mail the developers of Ziproxy with the defects we hav
 
 | Index    | Description     | Issue/PR NO. | Current State |
 | -------------- | ----------------------------------- | ------------------------|  ------------------------|
-|1|Compy goes wrong when compressing some images, which makes the images unable to load.| <a href="https://github.com/barnacs/compy/issues/63">Issue-63</a> & <a href="https://github.com/barnacs/compy/pull/70">PR-70</a> | Confirmed & Fixed |
-|2|Compy fails to parse the compressed images.| <a href="https://github.com/barnacs/compy/issues/64">Issue-64</a> | Under Discussion |
-|3|Compy can't deal with the websocket, which fails some interaction tasks like chatrooms and online services.| <a href="https://github.com/barnacs/compy/issues/65">Issue-65</a> | Under Discussion |
-|4|Compy may block the redirecting process of some websites.| <a href="https://github.com/barnacs/compy/issues/66">Issue-66</a> & <a href="https://github.com/barnacs/compy/pull/68">PR-68</a> | Fixed & Merged |
+|1|Compy goes wrong when compressing some JPG/PNG images, which makes the images unable to load.| <a href="https://github.com/barnacs/compy/issues/63">Issue-63</a> & <a href="https://github.com/barnacs/compy/pull/70">PR-70</a> | Confirmed & Fixed |
+|2|Compy fails to parse the compressed images.| <a href="https://github.com/barnacs/compy/issues/64">Issue-64</a> | Reported |
+|3|Compy can't deal with the websocket, which fails some interaction tasks like chatrooms and online services.| <a href="https://github.com/barnacs/compy/issues/65">Issue-65</a> | Reported |
+|4|Compy may block the redirecting process of some websites.| <a href="https://github.com/barnacs/compy/issues/66">Issue-66</a> & <a href="https://github.com/barnacs/compy/pull/68">PR-68</a> | Confirmed & Fixed |
+|5|Compy can't support GIF images. | <a href="https://github.com/barnacs/compy/pull/70">PR-70</a> | Confirmed & Fixed |
 
 ### Ziproxy
 
@@ -69,8 +70,25 @@ Note that for Ziproxy, we mail the developers of Ziproxy with the defects we hav
 | -------------- | ----------------------------------- | ------------------------|  ------------------------|
 |1| Ziproxy goes wrong when compressing some contexts, which makes the original contexts become messy code. | - | Waiting For Reply |
 |2| Ziproxy disturbs the loading sequence of JS files, leading to loading failure of  web pages. | - | Waiting For Reply |
+|3| Ziproxy cannot handle GIF files, leading to image display error transcoding. | - | Waiting For Reply |
+|4| Ziproxy causes conflicting fields in response header. | - | Waiting For Reply |
 
 ### Fawkes
+| Index    | Description     | Issue/PR NO. | Current State |
+| -------------- | ----------------------------------- | ------------------------|  ------------------------|
+|1| Fawkes can't handle some elements whose innerText has multiple lines. | <a href="https://github.com/fawkes-nsdi20/fawkes/issues/14">Issue-14</a> | Reported |
+|2| Fawkes mistakenly selects elements in template HTML | <a href="https://github.com/fawkes-nsdi20/fawkes/issues/13">Issue-13</a>  | Reported |
 
 ### SipLoader
-
+| Index    | Description     | Issue/PR NO. | Current State |
+| -------------- | ----------------------------------- | ------------------------|  ------------------------|
+|1| SipLoader cannot track dependencies triggered by CSS files. | <a href="https://github.com/SipLoader/SipLoader.github.io/issues/1">Issue-1</a> | Confirmed |
+|2| SipLoader cannot handle dependency loops among resources. | <a href="https://github.com/SipLoader/SipLoader.github.io/issues/2">Issue-2</a> | Confirmed |
+|3| SipLoader cannot request cross-origin resources. | <a href="https://github.com/SipLoader/SipLoader.github.io/issues/3">Issue-3</a> | Confirmed & Fixed |
+|4| Disordered page loading of websites with multiple HTML files. | <a href="https://github.com/SipLoader/SipLoader.github.io/issues/4">Issue-4</a> | Confirmed |
+|5| "404 Not Found" error when loading websites with multiple HTML files. | <a href="https://github.com/SipLoader/SipLoader.github.io/issues/5">Issue-5</a> | Confirmed |
+|6| SipLoader cannot handle some dynamic resources. | <a href="https://github.com/SipLoader/SipLoader.github.io/issues/6">Issue-6</a> | Confirmed |
+|7| A problem related to Chromium CDP used by SipLoader. | <a href="https://github.com/SipLoader/SipLoader.github.io/issues/7">Issue-7</a> | Confirmed |
+|8| CSS abormality of some websites. | <a href="https://github.com/SipLoader/SipLoader.github.io/issues/8">Issue-8</a> & <a href="https://github.com/SipLoader/SipLoader.github.io/pull/9">PR-9</a> | Confirmed & Fixed |
+|9| SipLoader fails to rewrite web page objects compressed by brotli. | <a href="https://github.com/SipLoader/SipLoader.github.io/issues/10">Issue-10</a> & <a href="https://github.com/SipLoader/SipLoader.github.io/pull/12">PR-12</a> | Confirmed & Fixed |
+|10| SipLoader cannot distinguish between data URIs and real URLs in CSS files. | <a href="https://github.com/SipLoader/SipLoader.github.io/issues/11">Issue-11</a> & <a href="https://github.com/SipLoader/SipLoader.github.io/pull/9">PR-9</a> | Confirmed & Fixed |
