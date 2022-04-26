@@ -74,12 +74,16 @@ Note that for Ziproxy, we mail the developers of Ziproxy with the defects we hav
 |4| Ziproxy causes conflicting fields in response header. | - | Waiting For Reply |
 
 ### Fawkes
+
+
 | Index    | Description     | Issue/PR NO. | Current State |
 | -------------- | ----------------------------------- | ------------------------|  ------------------------|
 |1| Fawkes can't handle some elements whose innerText has multiple lines. | <a href="https://github.com/fawkes-nsdi20/fawkes/issues/14">Issue-14</a> | Reported |
 |2| Fawkes mistakenly selects elements in template HTML | <a href="https://github.com/fawkes-nsdi20/fawkes/issues/13">Issue-13</a>  | Reported |
 
 ### SipLoader
+
+
 | Index    | Description     | Issue/PR NO. | Current State |
 | -------------- | ----------------------------------- | ------------------------|  ------------------------|
 |1| SipLoader cannot track dependencies triggered by CSS files. | <a href="https://github.com/SipLoader/SipLoader.github.io/issues/1">Issue-1</a> | Confirmed |
