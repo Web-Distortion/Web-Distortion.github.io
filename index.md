@@ -20,7 +20,7 @@
 
 [Data/Code Release](#data-and-code-release)
 
-[Bugs Found](#bugs-found)
+[Defects Found](#defects-found)
 
 ## Introduction
 Web optimization services (WOSes) play a critical role in today’s web ecosystem by improving performance and saving traffic. However, WOSes are known for introducing visual distortions that disrupt user web experience. Unfortunately,
