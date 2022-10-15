@@ -10,7 +10,7 @@
     </script>
 </head>
 <br />
-<center style="font-size:45px;color:green;line-height:-10px"> Visual-Aware Testing and Debugging for Web Optimization </center>
+<center style="font-size:45px;color:green;line-height:-10px"> Visual-Aware Testing and Debugging for Web Performance Optimization </center>
 
 ![license](https://img.shields.io/badge/platform-web-green "Platform")
 ![license](https://img.shields.io/badge/Licence-Apache%202.0-blue.svg "Apache")
@@ -23,13 +23,8 @@
 [Defects Found](#defects-found)
 
 ## Introduction
-Web optimization services (WOSes) play a critical role in today’s web ecosystem by improving performance and saving traffic. However, WOSes are known for introducing visual distortions that disrupt user web experience. Unfortunately,
-visual distortions are notoriously hard to analyze, test, and debug, due to their subjective measure, dynamic content, and sophisticated WOS implementations. In this paper, we present Vetter, a novel and effective system that automatically tests and debugs visual distortions. The key idea of Vetter is to reason about the morphology of web pages,
-which describes the topological forms and scale-free geometrical structures of visual elements. Vetter efficiently calculates morphology and comparatively analyzes the morphologies
-of web pages before and after a WOS as a differential test oracle. Such morphology analysis enables Vetter to detect visual distortions accurately and reliably (with 95% precision
-and 91% recall). Vetter further diagnoses the detected visual distortions to pinpoint the root causes in WOS source code.
-This is achieved by morphological causal inference, which localizes the offending visual elements that trigger the distortion and maps them to the corresponding code. We applied
-Vetter to four representative WOS systems. Vetter discovers 21 unknown defects responsible for 98% visual distortions; 12 of them have been confirmed and 5 have been fixed.
+Web performance optimization services, or web performance optimizers (WPOs) for short, play a critical role in today’s web ecosystem by improving page load speed and saving network traffic. However, WPOs are known for introducing visual distortions that disrupt the users’ web experience. Sadly, visual distortions are notoriously hard to analyze, test, and debug, due to their subjective measure, dynamic content, and sophisticated WPO implementations. 
+This paper presents Vetter, a novel and effective system that automatically tests and debugs visual distortions. Its key idea is to reason about the morphology of web pages, which describes the topological forms and scale-free geometrical structures of visual elements. Vetter efficiently calculates morphology and comparatively analyzes the morphologies of web pages before and after a WPO, which acts as a differential test oracle. Such morphology analysis enables Vetter to detect visual distortions accurately and reliably. Vetter further diagnoses the detected visual distortions to pinpoint the root causes in WPOs’ source code. This is achieved by morphological causal inference, which localizes the offending visual elements that trigger the distortion and maps them to the corresponding code. We applied Vetter to four representative WPOs. Vetter discovers 21 unknown defects responsible for 98% visual distortions; 12 of them have been confirmed and 5 have been fixed.
 
 
 ## Data and Code Release
@@ -50,7 +45,7 @@ Vetter
 The released part can be found <a href="https://github.com/Web-Distortion/Web-Distortion.github.io/tree/master/Vetter">here</a>.
 
 ## Defects Found
-Below, we list all the defects we have found for four representative WOSes: Compy, Ziproxy, Fawkes, and Siploader.
+Below, we list all the defects we have found for four representative WPOs: Compy, Ziproxy, Fawkes, and Siploader.
 Note that for Ziproxy, we mail the developers of Ziproxy with the defects we have found (together with our suggested fixes) through their official channels, but have not received the reply yet.
 
 ### Compy
