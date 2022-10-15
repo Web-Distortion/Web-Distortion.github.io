@@ -10,7 +10,7 @@
     </script>
 </head>
 <br />
-<center style="font-size:45px;color:green;line-height:-10px"> Visual-Aware Testing and Debugging for Web Performance Optimization </center>
+<center style="font-size:40px;color:green;line-height:-10px"> Visual-Aware Testing and Debugging for Web Performance Optimization </center>
 
 ![license](https://img.shields.io/badge/platform-web-green "Platform")
 ![license](https://img.shields.io/badge/Licence-Apache%202.0-blue.svg "Apache")
